@@ -24,6 +24,8 @@
                 android:resource="@xml/plant_widget_info" />
         </receiver>
 
+        <service android:name=".PlantWateringService" />
+
         <activity
             android:name=".ui.MainActivity"
             android:label="@string/title_activity_my_garden">
